@@ -1,4 +1,4 @@
-// NavbarTabs compoennt which redirects a user on page
+// NavbarTabs component which redirects a user on page
 
 interface Props {
   name: String;
