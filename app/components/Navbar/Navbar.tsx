@@ -5,7 +5,7 @@ import NavbarTabs from "./NavbarTabs";
 
 const Navbar: React.FC = () => {
   return (
-    <div className=" h-[103px] flex flex-col absolute w-screen">
+    <div className=" h-[103px] flex flex-col absolute w-screen z-50">
       {/* EXTERNAL LINKS SECTION */}
       <section className="flex justify-end mt-6 mr-[34px]">
         <a href="https://github.com/vorotyna" target="_blank">
