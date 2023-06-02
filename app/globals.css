@@ -11,5 +11,4 @@
 body {
   color: rgb(var(--main-text-rgb));
   background: rgb(var(--background-rgb));
-  margin: 0px 20px;
 }
