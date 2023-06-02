@@ -6,6 +6,7 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 const Navbar: React.FC = () => {
   return (
     <div className=" h-[103px] flex flex-col">
+      {/* EXTERNAL LINKS SECTION */}
       <section className="flex justify-end mt-6 mr-[34px]">
         <a href="https://github.com/vorotyna" target="_blank">
           <FontAwesomeIcon icon={faGithub} />
@@ -25,6 +26,7 @@ const Navbar: React.FC = () => {
           <FontAwesomeIcon icon={faPaperPlane} />
         </a>
       </section>
+      {/* TAB NAVIGATION SECTION */}
       <section className="flex justify-center">
         <button className="hover:underline hover:underline-offset-8 hover:decoration-1">
           HOME
