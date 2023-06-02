@@ -1,3 +1,4 @@
+import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import RootLayout from "./layout";
 
@@ -7,7 +8,7 @@ export default function Page() {
   return (
     <RootLayout>
       <Navbar />
-      <div className="mx-5">HII</div>
+      <Home />
     </RootLayout>
   );
 }

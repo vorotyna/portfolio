@@ -6,7 +6,7 @@ interface Props {
 
 const NavbarTabs: React.FC<Props> = (props: Props) => {
   return (
-    <button className="ml-[50px] hover:underline hover: underline-offset-8 hover:decoration-1">
+    <button className="mx-[25px] hover:underline hover: underline-offset-8 hover:decoration-1 uppercase">
       {props.name}
     </button>
   );
