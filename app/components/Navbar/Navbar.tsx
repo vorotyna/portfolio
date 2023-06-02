@@ -1,7 +1,7 @@
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import NavbarTabs from "./NavbarTabs";
 
 const Navbar: React.FC = () => {
   return (
@@ -18,25 +18,12 @@ const Navbar: React.FC = () => {
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a
-          href="mailto:alisa.vorotyn@gmail.com"
-          className="ml-[34px]"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faPaperPlane} />
-        </a>
       </section>
       {/* TAB NAVIGATION SECTION */}
       <section className="flex justify-center">
-        <button className="hover:underline hover:underline-offset-8 hover:decoration-1">
-          HOME
-        </button>
-        <button className="ml-[50px] hover:underline hover: underline-offset-8 hover:decoration-1">
-          ABOUT
-        </button>
-        <button className="ml-[50px] hover:underline hover: underline-offset-8 hover:decoration-1">
-          PROJECTS
-        </button>
+        <NavbarTabs name="HOME" />
+        <NavbarTabs name="ABOUT" />
+        <NavbarTabs name="PROJECTS" />
       </section>
     </div>
   );

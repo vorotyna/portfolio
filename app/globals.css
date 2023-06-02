@@ -8,6 +8,7 @@
   --main-text-rgb: 82, 82, 82;
 }
 
+/* Styling that is applied to all elements within the body (/layout.tsx) */
 body {
   color: rgb(var(--main-text-rgb));
   background: rgb(var(--background-rgb));
