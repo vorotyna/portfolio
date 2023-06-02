@@ -7,13 +7,21 @@ const Navbar: React.FC = () => {
   return (
     <div className=" h-[103px] flex flex-col">
       <section className="flex justify-end mt-6 mr-[34px]">
-        <a href="https://github.com/vorotyna">
+        <a href="https://github.com/vorotyna" target="_blank">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://github.com/vorotyna" className="ml-[34px]">
+        <a
+          href="https://www.linkedin.com/in/alisa-vorotyntseva/"
+          className="ml-[34px]"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://github.com/vorotyna" className="ml-[34px]">
+        <a
+          href="mailto:alisa.vorotyn@gmail.com"
+          className="ml-[34px]"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faPaperPlane} />
         </a>
       </section>
