@@ -23,7 +23,7 @@ const About: React.FC = (props: Props) => {
               About me
             </>
           }
-          description=" I am an emerging Full-Stack Web Developer. Upon completing my
+          description=" I am an emerging Full-Stack Web Developer. After completing my
             Kinesiology degree at McMaster University, I began an intensive
             Full-Stack Web Development program at Lighthouse Labs. I have since
             been building projects and learning as much as possible!"
@@ -38,7 +38,8 @@ const About: React.FC = (props: Props) => {
               Coding & Design
             </>
           }
-          description="I have experience using languages and technologies such as JavaScript, HTML, CSS, SQL, React, Next.js, Ruby on Rails and Figma. My main focus is building full-stack web applications, with an emphasis on the frontend and UI design."
+          description="I have experience using languages and technologies such as JavaScript, HTML, CSS, SQL, React, Next.js, Ruby on Rails and Figma. 
+          My main focus is on building full-stack web applications using various frameworks, with an emphasis on the frontend and UI design."
         />
         <IntroBoxes
           header={
@@ -51,9 +52,9 @@ const About: React.FC = (props: Props) => {
             </>
           }
           description="During my free time, I enjoy playing sports and exercising (what
-            else did you expect from a Kinesiology student?). I also love to
+            else did you expect from a ex-Kinesiology student?). I used to play volleyball and Olympic weightlift competitively. I also love to
             travel. If I am not at the gym then I am probably planning my next
-            trip."
+            trip. "
         />
       </section>
       <Title header="Skills" description="What I Know." />
