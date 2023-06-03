@@ -5,7 +5,7 @@ interface Props {
 
 const IntroBoxes: React.FC<Props> = (props: Props) => {
   return (
-    <div className="border-2 border-solid rounded-[10px] shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] mb-[28px]">
+    <div className="rounded-[10px] shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] mb-[28px] bg-[#F9F9FF]">
       <h3 className="text-[18px] uppercase text-center mb-[16px] mt-[30px]">
         {props.header}
       </h3>

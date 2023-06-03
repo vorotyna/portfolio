@@ -13,7 +13,7 @@ interface Props {}
 
 const About: React.FC = (props: Props) => {
   return (
-    <div className="flex flex-col items-center relative py-5 bg-[#F4F8FE}">
+    <div className="flex flex-col items-center relative py-8 bg-[#F4F8FE]">
       <Title header="Introduction" description="Who I Am." />
       <section className="grid grid-cols-3 gap-5 mx-[29px]">
         <IntroBoxes
