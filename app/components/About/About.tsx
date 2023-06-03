@@ -13,7 +13,7 @@ interface Props {}
 
 const About: React.FC = (props: Props) => {
   return (
-    <div className="flex flex-col items-center h-screen relative justify-around bg-[#F4F8FE}">
+    <div className="flex flex-col items-center relative py-5 bg-[#F4F8FE}">
       <Title header="Introduction" description="Who I Am." />
       <section className="grid grid-cols-3 gap-5 mx-[29px]">
         <IntroBoxes
@@ -57,20 +57,70 @@ const About: React.FC = (props: Props) => {
         />
       </section>
       <Title header="Skills" description="What I Know." />
-      <section className="grid grid-cols-4 gap-5 mx-[29px]">
-        <Skills header="JavaScript" image="/js.png" />
-        <Skills header="HTML" image="/html-logo.png" />
-        <Skills header="CSS" image="/css-logo.png" />
-        <Skills header="SQL" image="/sql-logo.png" />
-        <Skills header="React" image="/react.png" />
-        <Skills header="Next.js" image="/nextjs.svg" />
-        <Skills header="Ruby on Rails" image="/ruby.png" />
-        <Skills header="GitHub" image="/github.png" />
-        <Skills header="Figma" image="/figma.svg" />
-        <Skills header="tailwindCSS" image="/tailwind.png" />
-        <Skills header="Node.js" image="/nodejs.png" />
-        <Skills header="jQuery" image="/jquery.svg" />
-      </section>
+      <div className="w-full">
+        <section className="grid grid-cols-5 gap-5 mx-[29px]">
+          <Skills
+            header="JavaScript"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          />
+          <Skills
+            header="HTML"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          />
+          <Skills
+            header="CSS"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          />
+          <Skills
+            header="PostgreSQL"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+          />
+          <Skills
+            header="React"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          />
+          <Skills
+            header="Next.js"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+          />
+          <Skills
+            header="Ruby"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+          />
+          <Skills
+            header="Rails"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+          />
+          <Skills
+            header="Figma"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+          />
+          <Skills
+            header="tailwindCSS"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+          />
+          <Skills
+            header="Node.js"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+          />
+          <Skills
+            header="jQuery"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+          />
+          <Skills
+            header="Sass"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+          />
+          <Skills
+            header="GitHub"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          />
+          <Skills
+            header="Git"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          />
+        </section>
+      </div>
     </div>
   );
 };
