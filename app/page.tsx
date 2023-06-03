@@ -1,3 +1,4 @@
+import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import RootLayout from "./layout";
@@ -9,6 +10,7 @@ export default function Page() {
     <RootLayout>
       <Navbar />
       <Home />
+      <About />
     </RootLayout>
   );
 }

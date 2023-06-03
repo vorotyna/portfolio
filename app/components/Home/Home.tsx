@@ -12,7 +12,7 @@ const Home: React.FC = () => {
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         Hi, I'm <span className="text-[#777CFC]">Alisa</span>
         <br></br>
-        Front End || UI Design
+        Front-End || UI Design
       </h1>
       <p className="font-[400] text-[16px] w-[390px] text-center">
         Self-taught Full Stack Web Developer with a passion for design and
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       </p>
       <FontAwesomeIcon
         icon={faAngleDoubleDown}
-        className="absolute bottom-0 left-1/2 transform mb-[33px] text-[#777CFC] fa-lg"
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 transform mb-[33px] text-[#777CFC] fa-lg"
       />
     </div>
   );

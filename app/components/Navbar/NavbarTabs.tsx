@@ -1,7 +1,7 @@
 // NavbarTabs component which redirects a user on page
 
 interface Props {
-  name: String;
+  name: string;
 }
 
 const NavbarTabs: React.FC<Props> = (props: Props) => {
