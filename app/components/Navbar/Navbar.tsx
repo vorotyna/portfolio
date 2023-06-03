@@ -6,10 +6,10 @@ import NavbarTabs from "./NavbarTabs";
 const Navbar: React.FC = () => {
   return (
     <div className="sticky top-0 z-50">
-      <div className="h-[103px] flex flex-col w-screen absolute bg-[#F9F9FF]">
-        {/* ADD ON SCROLL - shadow-[2px_2px_20px_0px_rgba(0,0,0,0.08) */}
+      <div className="h-[90px] flex flex-col w-screen absolute bg-[#F9F9FF]">
+        {/* ADD ON SCROLL - shadow-[2px_2px_20px_0px_rgba(0,0,0,0.08)] */}
         {/* EXTERNAL LINKS SECTION */}
-        <section className="flex justify-end mt-6 mr-[34px]">
+        <section className="flex justify-end mt-4 mr-[34px]">
           <a href="https://github.com/vorotyna" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
