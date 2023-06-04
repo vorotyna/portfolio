@@ -18,20 +18,26 @@ const Project: React.FC<Props> = (props: Props) => {
   return (
     <article className="grid grid-cols-3 gap-5 mx-[80px] mb-20">
       <div className="bg-[#F4F8FE] shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] rounded-[10px] px-[28px] py-[30px] h-fit">
-        <div className="flex flex-row gap-6 justify-end">
+        <div className="flex flex-row gap-3 justify-end">
           {props.figma ? (
-            <a href={props.figma} target="_blank">
-              <FontAwesomeIcon icon={faFigma} className="fa-fw" />
-            </a>
+            <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px]">
+              <a href={props.figma} target="_blank">
+                <FontAwesomeIcon icon={faFigma} className="fa-fw" />
+              </a>
+            </button>
           ) : null}
           {props.website ? (
-            <a href={props.website} target="_blank">
-              <FontAwesomeIcon icon={faLink} className="fa-fw" />
-            </a>
+            <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px]">
+              <a href={props.website} target="_blank">
+                <FontAwesomeIcon icon={faLink} className="fa-fw" />
+              </a>
+            </button>
           ) : null}
-          <a href={props.github} target="_blank">
-            <FontAwesomeIcon icon={faGithub} className="fa-fw" />
-          </a>
+          <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px]">
+            <a href={props.github} target="_blank">
+              <FontAwesomeIcon icon={faGithub} className="fa-fw" />
+            </a>
+          </button>
         </div>
         <div className="flex flex-row justify-between items-center">
           <h1 className="uppercase text-[24px] font-[700] text-[#777CFC]">
