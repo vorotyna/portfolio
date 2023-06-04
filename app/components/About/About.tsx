@@ -11,9 +11,9 @@ import Skills from "./Skills";
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col items-center relative py-8 bg-[#F4F8FE]">
+    <div className="flex flex-col items-center relative py-14 bg-[#F4F8FE]">
       <Title header="Introduction" description="Who I Am." />
-      <section className="grid grid-cols-3 gap-5 mx-[30px]">
+      <section className="grid grid-cols-3 gap-5 mx-[80px]">
         <IntroBoxes
           header={
             <>
@@ -21,7 +21,7 @@ const About: React.FC = () => {
               About me
             </>
           }
-          description=" I am an emerging Full-Stack Web Developer. After completing my
+          description="I am an emerging Full-Stack Web Developer. After completing my
             Kinesiology degree at McMaster University, I began an intensive
             Full-Stack Web Development program at Lighthouse Labs. I have since
             been building projects and learning as much as possible!"
@@ -57,7 +57,7 @@ const About: React.FC = () => {
       </section>
       <Title header="Skills" description="What I Know." />
       <div className="w-full">
-        <section className="grid grid-cols-5 gap-5 mx-[30px]">
+        <section className="grid grid-cols-5 gap-5 mx-[80px]">
           <Skills
             header="JavaScript"
             image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"

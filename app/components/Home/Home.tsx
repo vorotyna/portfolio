@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       </p>
       <FontAwesomeIcon
         icon={faAngleDoubleDown}
-        className="absolute bottom-0 left-1/2 -translate-x-1/2 transform mb-[33px] text-[#777CFC] fa-lg"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 transform mb-[33px] text-[#777CFC] fa-lg"
       />
     </div>
   );
