@@ -1,6 +1,7 @@
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
+import Projects from "./components/Projects/Projects";
 import RootLayout from "./layout";
 
 // This is the main page with all of the rendered components put together
@@ -11,6 +12,7 @@ export default function Page() {
       <Navbar />
       <Home />
       <About />
+      <Projects />
     </RootLayout>
   );
 }

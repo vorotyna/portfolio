@@ -9,13 +9,11 @@ import Title from "../Title";
 import IntroBoxes from "./IntroBoxes";
 import Skills from "./Skills";
 
-interface Props {}
-
-const About: React.FC = (props: Props) => {
+const About: React.FC = () => {
   return (
     <div className="flex flex-col items-center relative py-8 bg-[#F4F8FE]">
       <Title header="Introduction" description="Who I Am." />
-      <section className="grid grid-cols-3 gap-5 mx-[29px]">
+      <section className="grid grid-cols-3 gap-5 mx-[30px]">
         <IntroBoxes
           header={
             <>
@@ -59,7 +57,7 @@ const About: React.FC = (props: Props) => {
       </section>
       <Title header="Skills" description="What I Know." />
       <div className="w-full">
-        <section className="grid grid-cols-5 gap-5 mx-[29px]">
+        <section className="grid grid-cols-5 gap-5 mx-[30px]">
           <Skills
             header="JavaScript"
             image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
