@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center h-screen relative justify-center">
+    <div className="flex flex-col items-center h-screen relative justify-center mx-[80px]">
       <p className="uppercase text-[16px] font-[400]">
         Turning creativity into reality
       </p>
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       </p>
       <FontAwesomeIcon
         icon={faAngleDoubleDown}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 transform mb-[33px] text-[#777CFC] fa-lg animate-bounce"
+        className="absolute bottom-10 transform mb-[33px] text-[#777CFC] fa-lg animate-bounce"
       />
     </div>
   );
