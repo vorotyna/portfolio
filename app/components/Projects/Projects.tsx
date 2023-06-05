@@ -3,34 +3,13 @@
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
+import { onButtonClick } from "@/app/utils/scrollOnClick";
 import Title from "../Title";
 import Project from "./Project";
 
 interface Props {}
 
 const Projects: React.FC<Props> = (props: Props) => {
-  // ------ TURN INTO A REUSABLE FUNCTION BECAUSE IT IS BEING ALSO USED IN NAVBARTABS!! ------- //
-  // A scroller function that takes element id and smooth scrolls to it.
-  const scroll = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop - 80,
-        behavior: "smooth",
-      });
-    }
-  };
-
-  const onButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
-    const goTo = e.currentTarget.getAttribute("data-go-to");
-    if (goTo) {
-      setTimeout(() => {
-        scroll(goTo);
-      }, 130);
-    }
-  };
-
   return (
     <div className="flex flex-col relative pt-14 items-center" id="projects">
       <Title header="Featured projects" description="What I Have Built." />
