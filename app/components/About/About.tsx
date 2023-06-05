@@ -110,8 +110,8 @@ const About: React.FC = () => {
             image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
           />
           <Skills
-            header="Sass"
-            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+            header="Typescript"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           />
           <Skills
             header="GitHub"

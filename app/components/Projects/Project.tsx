@@ -16,7 +16,7 @@ interface Props {
 
 const Project: React.FC<Props> = (props: Props) => {
   return (
-    <article className="grid grid-cols-3 gap-5 mx-[80px] mb-20">
+    <article className="grid grid-cols-3 gap-5 mx-[80px] mb-[50px]">
       <div className="bg-alternating-bg shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] rounded-[10px] px-[28px] pb-[30px] pt-[10px] h-fit">
         <div className="flex flex-row gap-3 justify-end">
           {props.figma ? (

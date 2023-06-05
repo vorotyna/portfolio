@@ -1,7 +1,6 @@
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFigma, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
 import Title from "../Title";
 import Project from "./Project";
 
@@ -9,7 +8,7 @@ interface Props {}
 
 const Projects: React.FC<Props> = (props: Props) => {
   return (
-    <div className="flex flex-col relative pt-14" id="projects">
+    <div className="flex flex-col relative pt-14 items-center" id="projects">
       <Title header="Featured projects" description="What I Have Built." />
       <Project
         name="portfolio"
@@ -57,7 +56,12 @@ const Projects: React.FC<Props> = (props: Props) => {
           "A rustic-looking frontend design built with EJS and SCSS to give the user a vintage experience",
         ]}
       />
-      <button></button>
+      <button className="mb-[50px] shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] w-[50px] h-[50px] rounded-full hover:scale-110 transition-all duration-300 ">
+        <FontAwesomeIcon
+          icon={faAngleDoubleUp}
+          className="text-[#777CFC] fa-lg hover:fa-xl"
+        />
+      </button>
     </div>
   );
 };
