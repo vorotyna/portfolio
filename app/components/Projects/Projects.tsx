@@ -7,9 +7,7 @@ import { onButtonClick } from "@/app/utils/scrollOnClick";
 import Title from "../Title";
 import Project from "./Project";
 
-interface Props {}
-
-const Projects: React.FC<Props> = (props: Props) => {
+const Projects: React.FC = () => {
   return (
     <div className="flex flex-col relative pt-14 items-center" id="projects">
       <Title header="Featured projects" description="What I Have Built." />
