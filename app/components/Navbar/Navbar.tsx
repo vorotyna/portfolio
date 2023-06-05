@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
       <div className="h-[90px] flex flex-col w-screen absolute bg-[#F9F9FF]">
         {/* ADD ON SCROLL - shadow-[2px_2px_20px_0px_rgba(0,0,0,0.08)] */}
         {/* EXTERNAL LINKS SECTION */}
-        <section className="flex justify-end mt-4 mr-[34px]">
+        <section className="flex justify-end mt-2 mr-[34px]">
           <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px] mr-5">
             <a href="https://github.com/vorotyna" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
@@ -26,9 +26,9 @@ const Navbar: React.FC = () => {
         </section>
         {/* TAB NAVIGATION SECTION */}
         <section className="flex justify-center">
-          <NavbarTabs name="Home" />
-          <NavbarTabs name="About" />
-          <NavbarTabs name="Projects" />
+          <NavbarTabs name="Home" goTo="home" />
+          <NavbarTabs name="About" goTo="about" />
+          <NavbarTabs name="Projects" goTo="projects" />
         </section>
       </div>
     </div>

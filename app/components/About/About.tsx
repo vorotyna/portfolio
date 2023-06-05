@@ -11,7 +11,10 @@ import Skills from "./Skills";
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col items-center relative py-14 bg-[#F4F8FE]">
+    <div
+      className="flex flex-col items-center relative py-14 bg-alternating-bg"
+      id="about"
+    >
       <Title header="Introduction" description="Who I Am." />
       <section className="grid grid-cols-3 gap-5 mx-[80px]">
         <IntroBoxes

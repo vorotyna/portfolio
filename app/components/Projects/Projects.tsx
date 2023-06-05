@@ -9,14 +9,14 @@ interface Props {}
 
 const Projects: React.FC<Props> = (props: Props) => {
   return (
-    <div className="flex flex-col relative pt-14">
+    <div className="flex flex-col relative pt-14" id="projects">
       <Title header="Featured projects" description="What I Have Built." />
       <Project
         name="portfolio"
         github="https://github.com/vorotyna/portfolio"
         figma="https://www.figma.com/file/G9az26cjkxFStTtFrHo8gg/Portfolio-Website?type=design&node-id=0%3A1&t=wSmKU0nVj6nX0Em2-1"
         description="My personal portfolio showcases many of my projects and allows you to get to know me a little bit better!"
-        image="/portfolio.png"
+        image="/website.png"
         list={[
           "Next.js || TypeScript || tailwindCSS",
           "Single-page web application featuring the use of CSS grid",

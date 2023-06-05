@@ -5,7 +5,7 @@
 /* CSS VARIABLES */
 :root {
   --background-rgb: 249, 249, 255;
-  --main-text-rgb: 82, 82, 82;
+  --main-text-rgb: 15, 23, 57;
 }
 
 /* Styling that is applied to all elements within the body (/layout.tsx) */

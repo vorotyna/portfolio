@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center h-screen relative justify-center mx-[80px]">
+    <div
+      className="flex flex-col items-center h-screen relative justify-center mx-[80px]"
+      id="home"
+    >
       <p className="uppercase text-[16px] font-[400]">
         Turning creativity into reality
       </p>
