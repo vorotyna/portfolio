@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Rendered client-side. Specified because using onClick handler
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,6 +6,8 @@ import { faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons";
 import { onButtonClick } from "@/app/utils/scrollOnClick";
 import Title from "../Title";
 import Project from "./Project";
+
+// Component renders all the projects for the projects section of page
 
 const Projects: React.FC = () => {
   return (

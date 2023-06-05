@@ -8,7 +8,7 @@
   --main-text-rgb: 15, 23, 57;
 }
 
-/* Styling that is applied to all elements within the body (/layout.tsx) */
+/* Styling that is applied to all children within the body (/layout.tsx) */
 body {
   color: rgb(var(--main-text-rgb));
   background: rgb(var(--background-rgb));

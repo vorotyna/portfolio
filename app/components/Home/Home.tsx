@@ -2,6 +2,8 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// Component renders the home section of the page
+
 const Home: React.FC = () => {
   return (
     <div

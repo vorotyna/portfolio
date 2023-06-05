@@ -4,9 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFigma, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
+// Component creates the format for a project going in the Projects section of the page
+
 interface Props {
   name: string;
-  figma?: string;
+  figma?: string; // ? means they are optional props
   website?: string;
   github: string;
   description: string;

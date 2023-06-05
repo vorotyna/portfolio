@@ -9,6 +9,8 @@ import Title from "../Title";
 import IntroBoxes from "./IntroBoxes";
 import Skills from "./Skills";
 
+// Component renders the whole About section of the page
+
 const About: React.FC = () => {
   return (
     <div
@@ -63,7 +65,7 @@ const About: React.FC = () => {
         <section className="grid grid-cols-5 gap-5 mx-[80px]">
           <Skills
             header="JavaScript"
-            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" // Using DevIcon (https://devicon.dev/) for image source
           />
           <Skills
             header="HTML"
@@ -128,5 +130,3 @@ const About: React.FC = () => {
 };
 
 export default About;
-
-// Make component for box

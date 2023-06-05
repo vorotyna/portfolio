@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import RootLayout from "./layout";
 
-// This is the main page with all of the rendered components put together
+// This file puts all the components together, which forms the web application
 
 export default function Page() {
   return (

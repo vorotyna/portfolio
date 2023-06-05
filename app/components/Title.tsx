@@ -1,3 +1,5 @@
+// Reusable component for the titles of each section on the page
+
 interface Props {
   header: string;
   description: string;

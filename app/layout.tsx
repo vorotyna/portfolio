@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Raleway } from "next/font/google";
 
-// Font
+// Font which is applied to all children
 const inter = Raleway({ subsets: ["latin"] });
 
 // Metadata is crucial for search engine optimization (SEO) as it helps search engines understand and categorize the content of a webpage
@@ -10,6 +10,7 @@ export const metadata = {
   description: "Personal portfolio website",
 };
 
+// Takes in a children prop and returns them in the body tag of the page HTML
 export default function RootLayout({
   children,
 }: {

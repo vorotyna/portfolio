@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+// Component renders a skills block
+
 interface Props {
   header: string;
   image: string;

@@ -1,3 +1,5 @@
+// Component renders the boxes with the introduction on About section
+
 interface Props {
   header: string | React.ReactNode;
   description: string;

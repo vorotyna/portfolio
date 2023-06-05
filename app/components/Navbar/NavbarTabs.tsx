@@ -1,7 +1,7 @@
 "use client";
 import { onButtonClick } from "@/app/utils/scrollOnClick";
 
-// NavbarTabs component which redirects a user on page
+// NavbarTabs component redirects a user on page
 
 interface Props {
   name: string;

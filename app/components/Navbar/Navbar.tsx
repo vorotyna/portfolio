@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Rendered client-side. Specified because using useEffect and useState
 
 import { useEffect, useState } from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -6,19 +6,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import NavbarTabs from "./NavbarTabs";
 
-interface Props {}
+// Component renders the navbar
 
-const Navbar: React.FC<Props> = (props: Props) => {
-  const [top, setTop] = useState(true);
+const Navbar: React.FC = () => {
+  const [top, setTop] = useState(true); // State to track whether navbar is at the top of page
 
   // Function to handle shadow on Navbar when scrolling
   useEffect(() => {
+    // Function that changes the state when window has certain scroll position
     const scrollHandler = () => {
       window.pageYOffset > 70 ? setTop(false) : setTop(true);
     };
-    window.addEventListener("scroll", scrollHandler);
-    return () => window.removeEventListener("scroll", scrollHandler);
-  }, [top]);
+    window.addEventListener("scroll", scrollHandler); // Add an event listener to the scroll event on the window object. When the user scrolls, the scrollHandler function will be called.
+    return () => window.removeEventListener("scroll", scrollHandler); //  Remove the event listener when the component is unmounted or when the top value changes
+  }, [top]); // Effect should be re-run whenever the value of top changes
 
   return (
     <div className="sticky top-0 z-50">
