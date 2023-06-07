@@ -6,15 +6,15 @@ Welcome to my portfolio website that is built using TypeScript, Next.js and tail
 
 ### Home Section
 
-!["Home"]()
+!["Home"](https://github.com/vorotyna/portfolio/blob/main/app/docs/home.png?raw=true)
 
 ### About Section
 
-!["About"]()
+!["About"](https://github.com/vorotyna/portfolio/blob/main/app/docs/about.png?raw=true)
 
 ### Projects Section
 
-!["Projects"]()
+!["Projects"](https://github.com/vorotyna/portfolio/blob/main/app/docs/projects.png?raw=true)
 
 ## How It's Made:
 
