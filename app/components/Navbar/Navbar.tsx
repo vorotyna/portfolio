@@ -24,15 +24,15 @@ const Navbar: React.FC = () => {
   return (
     <div className="sticky top-0 z-50">
       <div
-        className={`h-[90px] flex flex-col w-screen absolute bg-[#F9F9FF] ${
+        className={`h-[90px] flex flex-col w-[100svw] absolute bg-[#F9F9FF] px-[34px] ${
           !top
             ? "shadow-[2px_2px_20px_0px_rgba(0,0,0,0.08)] transition-shadow duration-300"
             : null
         }`}
       >
         {/* EXTERNAL LINKS SECTION */}
-        <section className="flex justify-end mt-2 mr-[34px]">
-          <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px] mr-5">
+        <section className="flex justify-end mt-2">
+          <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px] mobile:mr-5 mr-2 mobile:mb-0 mb-2">
             <a href="https://github.com/vorotyna" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
             </a>

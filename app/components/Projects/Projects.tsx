@@ -11,7 +11,10 @@ import Project from "./Project";
 
 const Projects: React.FC = () => {
   return (
-    <div className="flex flex-col relative pt-14 items-center" id="projects">
+    <div
+      className="flex flex-col relative mobile:pt-14 pt-10 items-center"
+      id="projects"
+    >
       <Title header="Featured projects" description="What I Have Built." />
       <Project
         name="portfolio"
