@@ -62,7 +62,7 @@ const About: React.FC = () => {
       </section>
       <Title header="Skills" description="What I Know." />
       <div className="w-full">
-        <section className="grid grid-cols-5 gap-5 mx-[80px]">
+        <section className="grid mobile:grid-cols-5 grid-cols-3 mobile:gap-5 gap-3 mobile:mx-[80px] mx-[20px]">
           <Skills
             header="JavaScript"
             image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" // Using DevIcon (https://devicon.dev/) for image source
