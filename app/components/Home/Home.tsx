@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Home: React.FC = () => {
   return (
     <div
-      className="flex flex-col items-center relative justify-center mobile:mx-[80px] mx-[20px] h-[calc(100dvh)]"
+      className="flex flex-col items-center mobile:h-screen relative justify-center mobile:mx-[80px] mx-[20px] h-[calc(100svh)]"
       id="home"
     >
       <p className="uppercase mobile:text-[16px] text-[15px] font-[400]">
