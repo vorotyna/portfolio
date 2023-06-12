@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
         image="/website.png"
         list={[
           "Next.js || TypeScript || tailwindCSS",
-          "Single-page web application featuring the use of CSS grid",
+          "A responsive (mobile or desktop) single-page web application featuring the use of CSS grid",
           "Designed and prototyped in Figma, perfected in code",
         ]}
       />
