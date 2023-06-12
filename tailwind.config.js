@@ -15,6 +15,9 @@ module.exports = {
       colors: {
         'alternating-bg': '#F3F7FE',
       },
+      screens: {
+        'mobile': '450px',
+      },
     },
   },
   plugins: [],
