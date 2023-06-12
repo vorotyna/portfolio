@@ -7,19 +7,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Home: React.FC = () => {
   return (
     <div
-      className="flex flex-col items-center h-screen relative justify-center mx-[80px]"
+      className="flex flex-col items-center h-screen relative justify-center mobile:mx-[80px] mx-[20px] "
       id="home"
     >
-      <p className="uppercase text-[16px] font-[400]">
+      <p className="uppercase mobile:text-[16px] text-[15px] font-[400]">
         Turning creativity into reality
       </p>
-      <h1 className="font-[700] text-[60px] text-center leading-tight my-[20px]">
+      <h1 className="font-[700] mobile:text-[60px] text-[30px] text-center leading-tight my-[20px]">
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         Hi, I'm <span className="text-[#777CFC]">Alisa</span>
         <br></br>
         Front-End || UI Design
       </h1>
-      <p className="font-[400] text-[16px] w-[390px] text-center">
+      <p className="font-[400] mobile:text-[16px] text-[15px]  mobile:w-[390px] text-center">
         Self-taught Full Stack Web Developer with a passion for design and
         all-things-aesthetic
       </p>
