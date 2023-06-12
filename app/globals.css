@@ -11,5 +11,5 @@
 /* Styling that is applied to all children within the body (/layout.tsx) */
 body {
   color: rgb(var(--main-text-rgb));
-  background: rgb(var(--background-rgb));
+  background: red;
 }
