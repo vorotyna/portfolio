@@ -17,6 +17,17 @@ const Projects: React.FC = () => {
     >
       <Title header="Featured projects" description="What I Have Built." />
       <Project
+        name="Blobs.io"
+        github="https://github.com/vorotyna/agar.io"
+        description="A multiplayer game involving Blobs and food!"
+        image="/blobs.png"
+        list={[
+          "p5.js || JavaScript || Socket.IO || Node.js",
+          "A multiplayer game built with p5.js for a more simplified creative coding process and interactive project",
+          "Features the use of Socket.IO, which allows real-time, bidirectional communication between multiple clients and server",
+        ]}
+      />
+      <Project
         name="portfolio"
         github="https://github.com/vorotyna/portfolio"
         figma="https://www.figma.com/file/G9az26cjkxFStTtFrHo8gg/Portfolio-Website?type=design&node-id=0%3A1&t=wSmKU0nVj6nX0Em2-1"
