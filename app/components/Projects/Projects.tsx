@@ -28,15 +28,14 @@ const Projects: React.FC = () => {
         ]}
       />
       <Project
-        name="portfolio"
-        github="https://github.com/vorotyna/portfolio"
-        figma="https://www.figma.com/file/G9az26cjkxFStTtFrHo8gg/Portfolio-Website?type=design&node-id=0%3A1&t=wSmKU0nVj6nX0Em2-1"
-        description="My personal portfolio showcases many of my projects and allows you to get to know me a little bit better!"
-        image="/website.png"
+        name="Graphic Design"
+        website="https://drive.google.com/drive/folders/1Omc4AsyTZ9ax2fzn1Ppylukb6ohZaXC9?usp=sharing"
+        description="A collection of marketing materials and graphics that I have created during my time as a Digital Marketing Coordinator at BrokersOfGood (BOG), VP of Marketing at deSCIpher, 
+        and a student at McMaster University."
+        image="/marketing.png"
         list={[
-          "Next.js || TypeScript || tailwindCSS",
-          "A responsive (mobile or desktop) single-page web application featuring the use of CSS grid",
-          "Designed and prototyped in Figma, perfected in code",
+          "Created using Canva",
+          "Includes examples of infographics, social media posts, email banners, and signage",
         ]}
       />
       <Project
@@ -71,6 +70,18 @@ const Projects: React.FC = () => {
           "PostgreSQL || Express.js || Node.js || JavaScript || SCSS || EJS",
           "Features the use of the Twilio API to send and receive text message alerts about your order",
           "A rustic-looking frontend design built with EJS and SCSS to give the user a vintage experience",
+        ]}
+      />
+      <Project
+        name="portfolio"
+        github="https://github.com/vorotyna/portfolio"
+        figma="https://www.figma.com/file/G9az26cjkxFStTtFrHo8gg/Portfolio-Website?type=design&node-id=0%3A1&t=wSmKU0nVj6nX0Em2-1"
+        description="My personal portfolio showcases many of my projects and allows you to get to know me a little bit better!"
+        image="/website.png"
+        list={[
+          "Next.js || TypeScript || tailwindCSS",
+          "A responsive (mobile or desktop) single-page web application featuring the use of CSS grid",
+          "Designed and prototyped in Figma, perfected in code",
         ]}
       />
       <button

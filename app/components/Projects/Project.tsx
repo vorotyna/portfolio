@@ -10,7 +10,7 @@ interface Props {
   name: string;
   figma?: string; // ? means they are optional props
   website?: string;
-  github: string;
+  github?: string;
   description: string;
   list: string[];
   image: string;
@@ -35,11 +35,13 @@ const Project: React.FC<Props> = (props: Props) => {
               </a>
             </button>
           ) : null}
-          <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px]">
-            <a href={props.github} target="_blank">
-              <FontAwesomeIcon icon={faGithub} className="fa-fw" />
-            </a>
-          </button>
+          {props.github ? (
+            <button className="hover:shadow-[4px_4px_24px_0px_rgba(0,0,0,0.15)] hover:rounded-full w-[35px] h-[35px]">
+              <a href={props.github} target="_blank">
+                <FontAwesomeIcon icon={faGithub} className="fa-fw" />
+              </a>
+            </button>
+          ) : null}
         </div>
         <div className="flex flex-row justify-between items-center">
           <h1 className="uppercase mobile:text-[24px] text-[20px] font-[700] text-[#777CFC]">
