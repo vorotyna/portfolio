@@ -26,10 +26,9 @@ const About: React.FC = () => {
               About me
             </>
           }
-          description="I am an emerging Full-Stack Web Developer. After completing my
-            Kinesiology degree at McMaster University, I began an intensive
-            Full-Stack Web Development program at Lighthouse Labs. I have since
-            been building projects and learning as much as possible!"
+          description="I am a Digital Marketing Coordinator and an emerging Full-Stack Web Developer. After completing my
+            Kinesiology degree at McMaster University, I began my studies in Software Development & Network Engineering 
+            at Sheridan College. I have since been building projects and learning as much as possible!"
         />
         <IntroBoxes
           header={
@@ -38,11 +37,11 @@ const About: React.FC = () => {
                 icon={faTerminal}
                 className="text-[#777CFC] mr-2"
               />
-              Coding & Design
+              Coding & Marketing
             </>
           }
-          description="I have experience using languages and technologies such as JavaScript, HTML, CSS, SQL, React, Next.js, Ruby on Rails and Figma. 
-          My main focus is on building full-stack web applications using various frameworks, with an emphasis on the frontend and UI design."
+          description="I have experience using languages and technologies such as JavaScript, Python, Java, HTML, CSS, SQL, React, and Figma.
+          Through my role as a Digital Marketing Coordinator, I have also gained experience using HubSpot, WordPress, Canva, Trello, and Zapier."
         />
         <IntroBoxes
           header={
@@ -56,8 +55,7 @@ const About: React.FC = () => {
           }
           description="During my free time, I enjoy playing sports and exercising (what
             else did you expect from a ex-Kinesiology student?). I used to play volleyball and Olympic weightlift competitively. I also love to
-            travel. If I am not at the gym then I am probably planning my next
-            trip. "
+            travel. If I am not at the gym then I am probably planning my next trip."
         />
       </section>
       <Title header="Skills" description="What I Know." />
@@ -84,16 +82,16 @@ const About: React.FC = () => {
             image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           />
           <Skills
-            header="Next.js"
-            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            header="Python"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
           />
           <Skills
-            header="Ruby"
-            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+            header="Java"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
           />
           <Skills
-            header="Rails"
-            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+            header="WordPress"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg"
           />
           <Skills
             header="Figma"
@@ -101,7 +99,7 @@ const About: React.FC = () => {
           />
           <Skills
             header="tailwindCSS"
-            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
           />
           <Skills
             header="Node.js"
@@ -112,8 +110,8 @@ const About: React.FC = () => {
             image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
           />
           <Skills
-            header="TypeScript"
-            image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            header="Canva"
+            image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"
           />
           <Skills
             header="GitHub"
