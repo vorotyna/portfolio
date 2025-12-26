@@ -54,7 +54,7 @@ const About: React.FC = () => {
             </>
           }
           description="During my free time, I enjoy playing sports and exercising (what
-            else did you expect from a ex-Kinesiology student?). I used to play volleyball and Olympic weightlift competitively. I also love to
+            else do you expect from an ex-Kinesiology student?). I used to play volleyball and Olympic weightlift competitively. I also love to
             travel. If I am not at the gym then I am probably planning my next trip."
         />
       </section>
