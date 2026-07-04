@@ -38,8 +38,7 @@ const About: React.FC = () => {
               Marketing & Coding
             </>
           }
-          description="I have experience using languages and technologies such as JavaScript, Python, Java, HTML, CSS, SQL, React, and Figma.
-          Through my role as a Digital Marketing Coordinator, I have also gained experience using HubSpot, WordPress, Canva, Trello, and Zapier."
+          description="I have hands-on experience with HTML, CSS, Responsys Personalization Language (RPL), JavaScript, Python, Java, SQL, React, and Figma, along with marketing systems & integrations like Responsys, HubSpot, WordPress, Canva, Trello, and Zapier."
         />
         <IntroBoxes
           header={
