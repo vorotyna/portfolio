@@ -20,8 +20,8 @@ const Home: React.FC = () => {
         Marketing || Full-Stack
       </h1>
       <p className="font-[400] mobile:text-[16px] text-[15px]  mobile:w-[390px] text-center">
-        A growth marketer with the technical programming skills to build what I
-        strategize.
+        A growth marketer with the technical programming skills to build what is
+        strategized.
       </p>
       <FontAwesomeIcon
         icon={faAngleDoubleDown}
