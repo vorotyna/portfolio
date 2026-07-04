@@ -17,11 +17,11 @@ const Home: React.FC = () => {
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         Hi, I'm <span className="text-[#777CFC]">Alisa</span>
         <br></br>
-        Full-Stack || Marketing
+        Marketing || Full-Stack
       </h1>
       <p className="font-[400] mobile:text-[16px] text-[15px]  mobile:w-[390px] text-center">
-        Self-taught Full-Stack Web Developer with a passion for digital
-        marketing and creative problem solving.
+        A growth marketer with the technical programming skills to build what I
+        strategize.
       </p>
       <FontAwesomeIcon
         icon={faAngleDoubleDown}
