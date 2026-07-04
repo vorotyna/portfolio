@@ -26,9 +26,7 @@ const About: React.FC = () => {
               About me
             </>
           }
-          description="I am a Digital Marketing Coordinator and an emerging Full-Stack Web Developer. After completing my
-            Kinesiology degree at McMaster University, I began my studies in Software Development & Network Engineering 
-            at Sheridan College. I have since been building projects and learning as much as possible!"
+          description="I'm a data-driven growth marketer, committed to building and optimizing digital campaigns that deliver value for both customers and the business. I specialize in the technical execution of A/B tests across email and push campaigns, helping turn insights into profitable marketing decisions. Beyond marketing, I'm also self-taught in full-stack development — this portfolio is where that work lives."
         />
         <IntroBoxes
           header={
