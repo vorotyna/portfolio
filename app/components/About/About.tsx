@@ -26,7 +26,7 @@ const About: React.FC = () => {
               About me
             </>
           }
-          description="I'm a data-driven growth marketer, committed to building and optimizing digital campaigns that deliver value for both customers and the business. I specialize in the technical execution of A/B tests across email and push campaigns, helping turn insights into profitable marketing decisions. Beyond marketing, I'm also self-taught in full-stack development — this portfolio is where that work lives."
+          description="I'm a data-driven growth marketer, committed to building and optimizing digital campaigns that deliver value for both customers and the business. I specialize in the technical execution of A/B tests across email and push campaigns, helping turn insights into profitable marketing decisions. Beyond marketing, I have a full-stack programming background - this portfolio is where I showcase that work."
         />
         <IntroBoxes
           header={
@@ -35,7 +35,7 @@ const About: React.FC = () => {
                 icon={faTerminal}
                 className="text-[#777CFC] mr-2"
               />
-              Coding & Marketing
+              Marketing & Coding
             </>
           }
           description="I have experience using languages and technologies such as JavaScript, Python, Java, HTML, CSS, SQL, React, and Figma.
